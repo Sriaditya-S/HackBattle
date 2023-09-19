@@ -231,6 +231,7 @@
     margin-left: 2rem;
     color: var(--grey);
     font-weight: 500;
+    padding-top: 10px;
 }
 
 .header_left_list_item {
@@ -1309,7 +1310,7 @@ body {
 
 
 
-#dropdownMenuButton {
+/* #dropdownMenuButton {
     background-color: white;
     color: #5e6d55;
     border: none;
@@ -1323,5 +1324,9 @@ body {
 
 #enterp {
     font-size: 1.5rem;
-    padding-top: 10px;
+    padding-top: 8px;
+} */
+
+.header_left_list a {
+    color: #5e6d55;
 }
