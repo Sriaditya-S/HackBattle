@@ -222,7 +222,7 @@
 }
 
 .header_left img {
-    height: 2.5rem;
+    height: 4.0rem;
 }
 
 .header_left_list {
@@ -1328,5 +1328,15 @@ body {
 } */
 
 .header_left_list a {
+    color: #5e6d55;
+}
+
+
+#vit image {
+    height: 200px;
+    width: 500px;
+}
+
+.section_1_top_list a {
     color: #5e6d55;
 }
