@@ -193,6 +193,7 @@
 .footer_bottom_list li {
     margin-right: 20px;
 }
+
 .footer_bottom_list a {
     margin-right: 20px;
     color: white;
@@ -495,6 +496,10 @@ body {
     font-size: 23px;
     font-weight: 500;
     cursor: pointer;
+}
+
+.section_2_categories_tile a {
+    color: black;
 }
 
 .section_2_categories_tile:hover {
@@ -1343,4 +1348,45 @@ body {
 
 .section_1_top_list a {
     color: #5e6d55;
+}
+
+
+
+
+
+/* Mobile devices (portrait and landscape) */
+@media only screen and (max-width: 768px) {
+
+    /* Add mobile-specific styles here */
+    .wrapper {
+        width: 100%;
+        /* Full width on mobile */
+    }
+
+    /* Modify other elements to fit smaller screens */
+}
+
+@media only screen and (max-width: 768px) {
+    .title-1 {
+        font-size: 36px;
+    }
+
+    .title-3 {
+        font-size: 18px;
+    }
+
+    .title-4 {
+        font-size: 14px;
+    }
+
+    /* Adjust other font sizes as needed */
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        padding: 40px 20px;
+        /* Adjust padding for mobile */
+    }
+
+    /* Adjust other padding and margin values as needed */
 }
