@@ -193,6 +193,10 @@
 .footer_bottom_list li {
     margin-right: 20px;
 }
+.footer_bottom_list a {
+    margin-right: 20px;
+    color: white;
+}
 
 /*Section 8 css end*/
 /*Header css start*/
