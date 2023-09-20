@@ -156,3 +156,15 @@ body {
     background: linear-gradient(to left, #3b5998 0%, #476bb8 100%);
     margin: 20px 0 50px 0;
 }
+
+.favoritestyled {
+    background: #44B623;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .input-box .favoritestyled:hover {
+    background: linear-gradient(to left, #3c8224 0%, #3c8224 100%);
+}
