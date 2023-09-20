@@ -22,17 +22,17 @@ app.use(bodyParser.json());
 const topics = [
   {
     id: 1,
-    title: 'Topic 1: Lorem Ipsum',
+    title: 'Topic 1: Web-Development',
     posts: [
-      { id: 1, username: 'User 1', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-      { id: 2, username: 'User 2', content: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' },
+      { id: 1, username: 'User 1', content: 'Hello' },
+      { id: 2, username: 'User 2', content: 'Need help in backend using Mongo DB' },
     ],
   },
   {
     id: 2,
-    title: 'Topic 2: Web Development',
+    title: 'Topic 2: Game Development',
     posts: [
-      { id: 1, username: 'User 3', content: 'HTML, CSS, JavaScript are essential for web development.' },
+      { id: 1, username: 'User 3', content: 'Hi, i am trying to create VR Games.' },
     ],
   },
 ];
